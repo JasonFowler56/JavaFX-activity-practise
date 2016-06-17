@@ -106,7 +106,7 @@ public class SceneController
         else
         {
             System.out.println(selectedItem + " (id: " + selectedItem.id + ") is selected.");
-            
+            num.setText(Integer.toString(selectedItem.id));
         }
     }    
 
